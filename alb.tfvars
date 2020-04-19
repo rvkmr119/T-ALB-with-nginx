@@ -1,0 +1,12 @@
+region = "us-east-1"
+albname = "T-ALB-1"
+lbtype = "application"
+sgs = ["sg-0fdc9c8c32c542bfd"]
+subs = ["subnet-09ccff9de42fe92c6", "subnet-0cc7ad0cae1cf039c"]
+alb_tg = "T-ALB-TG1"
+tgtype = "instance"
+tgproto = "HTTP"
+vpc = "vpc-0a3e7ec569192c47a"
+amitype = "ami-0915e09cc7ceee3ab"
+project = "first ec2 demo"
+i_type = "t2.micro"
